@@ -33,17 +33,22 @@ header{
 
   /* Start Main */
 main{
-  height: 1200px;
+  height: 100vh;
   width: 100vw;
-  background-color: rgb(27, 27, 27);
+  background-color: #000;
+}
+.container-principal{
+  width: 90vw;
+  height: 100vh;
+  b
 }
   /* End Main */
 
   /* Start Footer */
 footer{
-  height: 100px;
   width: 100vw;
-  background-color: rgb(53, 42, 202);
+  height: 90px;
+  background-color: rgb(34, 34, 34);
   position: fixed;
   left: 0;
   bottom: 0;
@@ -51,11 +56,12 @@ footer{
 }
 .icon .fas{
   font-size: 30px;
+  margin-bottom: 10px;
 }
 .nav-bottom{
   height: 100%;
   align-items: center;
-  justify-content: center;
+  color: #fff;
 }
 .nav-bottom > .fas{
   font-size: 10px;
@@ -64,17 +70,22 @@ footer{
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin: 0 15px;
 }
 .left{
   width: 15%;
-  background-color: rgb(177, 171, 174);
 }
 .center{
-  width: 50%;
-  background-color: indigo;
+  width: 60%;
+  justify-content: center;
 }
 .right{
   width: 10%;
-  background-color: khaki;
+  background-color: rgb(74, 74, 74);
+  justify-content: center;
+  color: red;
+}
+.fa-chevron-up{
+  margin-right: 5px;
 }
   /* End Footer */
