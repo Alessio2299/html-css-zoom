@@ -19,6 +19,7 @@ header{
  top: 0;
  justify-content: flex-end;
  align-items: flex-start;
+ z-index: 9999;
 }
 .space{
   margin: 4px;
@@ -45,17 +46,23 @@ main{
   margin: auto;
   flex-wrap: wrap;
   align-content: flex-start;
-  justify-content: space-between;
-  column-gap: 5px;
-  row-gap: 5px;
+  column-gap: 10px;
+  row-gap: 10px;
 }
 .user{
-  width: calc(100% / 5 - 5px);
-  height: 180px;
-  background-color: seagreen;
+  width: 250px;
+  height: 160px;
+  background-image: url(https://picsum.photos/200/300);
+  background-size: cover;
+  position: relative;
 }
-.s{
-  background-color: aqua;
+.name-mute{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(160, 160, 160);
+  color: #fff;
+  padding: 5px;
 }
   /* End Main */
 
