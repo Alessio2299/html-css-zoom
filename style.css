@@ -1,0 +1,56 @@
+  /* Common Command */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex{
+  display: flex;
+}
+  /* End Command */
+
+  /* Start Header */
+header {
+ height: 50px;
+ width: 100vw;
+ background-color: gray;
+ position: fixed;
+ left: 0;
+ top: 0;
+}
+  /* End Header */
+
+  /* Start Main */
+main {
+  height: 100vh;
+  width: 100vw;
+  background-color: green;
+}
+  /* End Main */
+
+  /* Start Footer */
+footer {
+  height: 100px;
+  width: 100vw;
+  background-color: rgb(37, 33, 94);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  justify-content: space-between;
+}
+.nav-bottom {
+  height: 100%;
+}
+.left {
+  width: 15%;
+  background-color: hotpink;
+}
+.center {
+  width: 50%;
+  background-color: indigo;
+}
+.right {
+  width: 10%;
+  background-color: khaki;
+}
+  /* End Footer */
