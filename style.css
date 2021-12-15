@@ -1,5 +1,5 @@
   /* Common Command */
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,46 +10,70 @@
   /* End Command */
 
   /* Start Header */
-header {
- height: 50px;
+header{
  width: 100vw;
- background-color: gray;
  position: fixed;
  left: 0;
  top: 0;
+ justify-content: flex-end;
+ align-items: flex-start;
+}
+.space{
+  margin: 4px;
+}
+.btn{
+  background-color: rgb(71, 71, 71);
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #fff;
+  padding-left: 5px;
 }
   /* End Header */
 
   /* Start Main */
-main {
-  height: 100vh;
+main{
+  height: 1200px;
   width: 100vw;
-  background-color: green;
+  background-color: rgb(27, 27, 27);
 }
   /* End Main */
 
   /* Start Footer */
-footer {
+footer{
   height: 100px;
   width: 100vw;
-  background-color: rgb(37, 33, 94);
+  background-color: rgb(53, 42, 202);
   position: fixed;
   left: 0;
   bottom: 0;
   justify-content: space-between;
 }
-.nav-bottom {
+.icon .fas{
+  font-size: 30px;
+}
+.nav-bottom{
   height: 100%;
+  align-items: center;
+  justify-content: center;
 }
-.left {
+.nav-bottom > .fas{
+  font-size: 10px;
+}
+.icon{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.left{
   width: 15%;
-  background-color: hotpink;
+  background-color: rgb(177, 171, 174);
 }
-.center {
+.center{
   width: 50%;
   background-color: indigo;
 }
-.right {
+.right{
   width: 10%;
   background-color: khaki;
 }

@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <title>Zoom</title>
   </head>
   <body>
-    <header>
-      <div class="btn-speaker">
-
+    <header class="flex">
+      <div class="btn speaker space">
+        <i class="fas fa-table"></i>
+        <span>Speaker View</span>
       </div>
-      <div class="fullscreen">
-        
+      <div class="btn fullscreen space">
+        <i class="fas fa-expand-arrows-alt"></i>
       </div>
     </header>
     <main>
@@ -21,12 +23,21 @@
     </main>
     <footer class="flex">
       <div class="nav-bottom left flex">
+        <div class="icon speaker">
+          <i class="fas fa-microphone"></i>
+          <span>Mute</span>
+        </div>
+        <i class="fas fa-chevron-up"></i>
+        <div class="icon video">
+          <i class="fas fa-video"></i>          
+          <span>Stop Video</span>
+        </div>
+      </div>
+      <div class="nav-bottom center">
+
 
       </div>
-      <div class="nav-bottom center flex">
-
-      </div>
-      <div class="nav-bottom right flex">
+      <div class="nav-bottom right">
 
       </div>
     </footer>
